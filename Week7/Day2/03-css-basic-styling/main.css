@@ -1,37 +1,60 @@
+@font-face {
+    font-family: merriweather;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Satisfy&family=Shantell+Sans:wght@300&display=swap')
+}
+
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1, h2, p {
+    font-family: merriweather;
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    /* font-size:; */
+    /* font-family: ; */
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    background-color: yellow;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    /* font-size: ; */
+    /* font-family: ; */
+    text-align: center;
+    /* padding: 0; */
+    margin: 1em auto 1em auto;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: white;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    /* /* font-family: ; */
+    font-size: large;
+    /* padding: ; */
+    margin: 1em 1em 1em 1em;
+    align-self: center;
+    text-align: justify;
+    /* width: fit-content; */
+    color: blue;
+    background-color: white;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: yellow;
+    height: 20em;
+    width: 20em;
+    margin: auto;
+    padding: 1em;
+
 }

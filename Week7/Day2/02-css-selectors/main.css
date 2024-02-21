@@ -1,6 +1,42 @@
 /* Your code here */
 
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+pre {
+    margin: 100px auto;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+pre > a {
+    color: black;
+}
+
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
+
+
 
 .noin {
     text-indent: 0em;
@@ -8,6 +44,7 @@
 
 body > p {
     text-indent: 1em;
+
 }
 
 h1, h2, h3 {

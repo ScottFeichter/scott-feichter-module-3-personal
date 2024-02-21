@@ -10,11 +10,18 @@ html, body {
     vertical-align: bottom;
 
     /* Your code here */
+    display: inline;
+    width: 10em;
+    height: 10em;
+
 }
 
 
 h1 {
     /* Your code here */
+    text-emphasis: none;
+    display: inline;
+    font-size: 8em;
 }
 
 /* Phase 2 */
