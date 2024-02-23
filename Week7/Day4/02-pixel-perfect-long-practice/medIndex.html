@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Large</title>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"> -->
+  <link rel="stylesheet" href="medIndex.css">
+
+</head>
+<body>
+  <header id="header-container">
+    <div id="header-logo-container">
+      <img class="logo-image">
+      <h2 class="logo-title">Large</h2>
+    </div>
+    <nav id="nav-links-container">
+        <a class="nav-links" href="#">Our story</a>
+        <a class="nav-links" href="#">Membership</a>
+        <a class="nav-links" href="#">Write</a>
+        <a class="nav-links" href="#">Sign In</a>
+        <a class="nav-links" href="#">Get Started</a>
+    </nav>
+  </header>
+  <section id="main-container">
+    <div id="discover-container">
+      <h2 class="discover-heading">Stay curious.</h2>
+      <p class="discover-text">Discover stroies, thinking, and expertise form writers on any topic.</p>
+      <a class="nav-links discover-button" href="#">Start reading</p>
+    </div>
+    <div id="m-container">
+
+    </div>
+  </section>
+<script>
+  const mContainer = document.getElementById('m-container');
+  for (let i = 0; i <=1000; i++) {
+    const span = document.createElement('span');
+    span.innerText = "L"
+    mContainer.appendChild(span);
+  }
+</script>
+</body>
+</html>
